@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start your Tic Tac Toe game!</title>
+    <link href="./src/style.css" rel="stylesheet" />
+    <script defer src="./src/script.js"></script>
+  </head>
+  <body>
+    <div class="scoreboard">
+      <div class="player--turn">
+        <span>Player</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </div>
+      <button class="btn">Start New Game!</button>
+      <div class="computer--turn">
+        <span>Computer</span>
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <main class="container">
+      <div class="square" id="dv--00" data-val="0,0">
+        <!-- <div class="circle-big"></div> -->
+      </div>
+      <div class="square" id="dv--01" data-val="0,1">
+        <!-- <div class="cross-big"></div> -->
+      </div>
+      <div class="square" id="dv--02" data-val="0,2"></div>
+      <div class="square" id="dv--10" data-val="1,0"></div>
+      <div class="square" id="dv--11" data-val="1,1"></div>
+      <div class="square" id="dv--12" data-val="1,2"></div>
+      <div class="square" id="dv--20" data-val="2,0"></div>
+      <div class="square" id="dv--21" data-val="2,1"></div>
+      <div class="square" id="dv--22" data-val="2,2"></div>
+    </main>
+  </body>
+</html>
