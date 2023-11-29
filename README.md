@@ -7,3 +7,6 @@ This is a hands-on project after learning vanilla JS, CSS and HTML. Instead of u
 - Score tracking
 - Score persistence to Local Storage?
 - Overlay and css dialogue box to replace js alert box.
+
+## Demo
+[coming to netlify]
