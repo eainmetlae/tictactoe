@@ -9,4 +9,4 @@ This is a hands-on project after learning vanilla JS, CSS and HTML. Instead of u
 - Overlay and css dialogue box to replace js alert box.
 
 ## Demo
-[coming to netlify]
+[coming to netlify] https://euphonious-pegasus-084d7c.netlify.app/
